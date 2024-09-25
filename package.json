@@ -1,11 +1,12 @@
 {
   "name": "abp-test-task",
   "private": true,
+  "homepage": "https://YaroslavLeshchenko.github.io/abp-test-task",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
